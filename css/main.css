@@ -65,3 +65,46 @@ footer{
     left: 30%;
     bottom: 0px;
 }
+
+section.intro{
+    width: 50%;
+}
+
+div.explanation{
+    width: 40%;
+    padding: 6%;
+    float: left;
+}
+
+div.participation{
+    margin-left: 50%;
+    width: 50%;
+}
+
+div.benefits{
+    float: 20%;
+    margin-right: 50%;
+    width: 50%;
+    top: 55px;
+}
+
+div.requirements{
+    float: 10%;
+    margin-left: 50%;
+    width: 50%;
+    top: -250.5px;
+}
+
+body{
+    font-family: 'Franklin Gothic Small', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 0%;
+    background-image: url();
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+@font-face {
+    font-family: 'myfont';
+    src: url('');
+}
