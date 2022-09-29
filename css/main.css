@@ -108,3 +108,48 @@ a{
     font-family: 'myfont';
     src: url('');
 }
+
+/*
+section.intro div.preamble{
+    margin: 50%;
+    padding: 5%,2%,4%,10%;
+}
+*/
+
+#zen-resources{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: aquamarine;
+}
+
+#zen-resources h3{
+    display: none;
+}
+
+#zen-resources ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+p:active{
+    border: hsla(0, 89%, 30%, 0.9) 5px solid;
+}
+
+h3:active+p{
+    visibility: hidden;
+}
+
+li:first-of-type{
+    color: aquamarine;
+}
+
+p::first-letter{
+    font-size: 100%;
+    text-transform: uppercase;
+}
+
+p:nth-child(3n+2){
+    background-color: hsla(189, 71%, 69%, 0.6);
+}
